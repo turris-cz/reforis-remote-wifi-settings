@@ -26,4 +26,5 @@ module.exports = {
     globals: {
         TZ: "utc",
     },
+    transformIgnorePatterns: ["node_modules/(?!(foris)/)"],
 };
