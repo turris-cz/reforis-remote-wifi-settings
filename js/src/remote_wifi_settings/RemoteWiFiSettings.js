@@ -52,7 +52,6 @@ export default function RemoteWiFiSettings({ ws }) {
                     ws={ws}
                     endpoint={`${API_URLs.settings}/${selectedDevice}`}
                     resetEndpoint={`${API_URLs.reset}/${selectedDevice}`}
-                    hasGuestNetwork={false}
                 />
             </>
         );
