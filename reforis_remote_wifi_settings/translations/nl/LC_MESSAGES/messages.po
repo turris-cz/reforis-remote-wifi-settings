@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-03-02 15:34+0100\n"
-"PO-Revision-Date: 2020-11-29 18:29+0000\n"
+"PO-Revision-Date: 2020-11-30 22:29+0000\n"
 "Last-Translator: Johan van de Wetering <mail@jvdwetering.nl>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/turris/"
 "reforis-remote-wifi-settings-plugin/nl/>\n"
@@ -22,11 +22,11 @@ msgstr ""
 
 #: js/src/app.js:11 js/src/remote_wifi_settings/RemoteWiFiSettings.js:63
 msgid "Wi-Fi Settings"
-msgstr ""
+msgstr "WiFi-instellingen"
 
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:38
 msgid "There are no devices for which you can manage Wi-Fi settings."
-msgstr ""
+msgstr "Er zijn geen apparaten waarvan u de WiFi-instellingen kunt beheren."
 
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:45
 msgid "Device"
@@ -34,16 +34,16 @@ msgstr "Apparaat"
 
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:48
 msgid "Select device for which you want to edit Wi-Fi settings."
-msgstr ""
+msgstr "Selecteer apparaat waarvan u de WiFi-instellingen wilt wijzigen."
 
 #: reforis_remote_wifi_settings/__init__.py:56
 msgid "Cannot update Wi-Fi settings."
-msgstr ""
+msgstr "Kan WiFi-instellingen niet updaten."
 
 #: reforis_remote_wifi_settings/__init__.py:65
 msgid "Cannot reset Wi-Fi settings."
-msgstr ""
+msgstr "Kan WiFi-instellingen niet resetten."
 
 #: reforis_remote_wifi_settings/__init__.py:75
 msgid "Device '{}' is not available or does not have any Wi-Fi interfaces."
-msgstr ""
+msgstr "Apparaat '{}' is niet beschikbaar of heeft geen WiFi-interfaces."
