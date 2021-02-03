@@ -1,9 +1,13 @@
 {
   "name": "reforis_remote_wifi_settings",
   "author": "CZ.NIC, z.s.p.o.",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.nic.cz/turris/reforis/reforis-remote-wifi-settings.git"
+  },
   "license": "GPL-3.0",
-  "version": "0.2.0",
-  "description": "",
+  "version": "0.2.1",
+  "description": "reForis Remote Wi-Fi Settings Plugin",
   "main": "./src/app.js",
   "dependencies": {
     "foris": "^4.5.0",
