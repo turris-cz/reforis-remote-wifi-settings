@@ -7,20 +7,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-02 15:34+0100\n"
+"POT-Creation-Date: 2021-02-03 14:22+0100\n"
 "PO-Revision-Date: 2021-01-08 19:32+0000\n"
 "Last-Translator: Zoli <boritek@gmail.com>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/turris/"
-"reforis-remote-wifi-settings-plugin/hu/>\n"
 "Language: hu\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/turris"
+"/reforis-remote-wifi-settings-plugin/hu/>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.1-dev\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.0\n"
 
-#: js/src/app.js:11 js/src/remote_wifi_settings/RemoteWiFiSettings.js:63
+#: js/src/app.js:11 js/src/remote_wifi_settings/RemoteWiFiSettings.js:62
 msgid "Wi-Fi Settings"
 msgstr "Wi-Fi beállítások"
 
@@ -35,7 +34,8 @@ msgstr "Készülék"
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:48
 msgid "Select device for which you want to edit Wi-Fi settings."
 msgstr ""
-"Válassza ki azt az eszközt, amelynek a Wi-Fi-beállításait módosítani kívánja."
+"Válassza ki azt az eszközt, amelynek a Wi-Fi-beállításait módosítani "
+"kívánja."
 
 #: reforis_remote_wifi_settings/__init__.py:56
 msgid "Cannot update Wi-Fi settings."
@@ -50,3 +50,4 @@ msgid "Device '{}' is not available or does not have any Wi-Fi interfaces."
 msgstr ""
 "A(z) '{}' eszköz nem érhető el, vagy nem rendelkezik Wi-Fi hálózati "
 "csatolóval."
+

@@ -7,28 +7,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-02 15:34+0100\n"
+"POT-Creation-Date: 2021-02-03 14:22+0100\n"
 "PO-Revision-Date: 2020-03-13 18:33+0000\n"
 "Last-Translator: Florian <floflr@zaclys.net>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/turris/"
-"reforis-remote-wifi-settings-plugin/fr/>\n"
 "Language: fr\n"
+"Language-Team: French <https://hosted.weblate.org/projects/turris"
+"/reforis-remote-wifi-settings-plugin/fr/>\n"
+"Plural-Forms: nplurals=2; plural=n > 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.0-dev\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.0\n"
 
-#: js/src/app.js:11 js/src/remote_wifi_settings/RemoteWiFiSettings.js:63
+#: js/src/app.js:11 js/src/remote_wifi_settings/RemoteWiFiSettings.js:62
 msgid "Wi-Fi Settings"
 msgstr "Paramètres Wi-Fi"
 
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:38
 msgid "There are no devices for which you can manage Wi-Fi settings."
 msgstr ""
-"Il n’existe aucun appareil pour lequel vous pouvez gérer les paramètres Wi-"
-"Fi."
+"Il n’existe aucun appareil pour lequel vous pouvez gérer les paramètres "
+"Wi-Fi."
 
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:45
 msgid "Device"
@@ -37,8 +36,8 @@ msgstr "Appareil"
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:48
 msgid "Select device for which you want to edit Wi-Fi settings."
 msgstr ""
-"Sélectionnez l'appareil pour lequel vous souhaitez modifier les paramètres "
-"Wi-Fi."
+"Sélectionnez l'appareil pour lequel vous souhaitez modifier les "
+"paramètres Wi-Fi."
 
 #: reforis_remote_wifi_settings/__init__.py:56
 msgid "Cannot update Wi-Fi settings."
@@ -51,4 +50,6 @@ msgstr "Impossible de réinitialiser les paramètres Wi-Fi."
 #: reforis_remote_wifi_settings/__init__.py:75
 msgid "Device '{}' is not available or does not have any Wi-Fi interfaces."
 msgstr ""
-"L'appareil \"{}\" n'est pas disponible ou ne possède pas d'interface Wi-Fi."
+"L'appareil \"{}\" n'est pas disponible ou ne possède pas d'interface Wi-"
+"Fi."
+
