@@ -1,4 +1,4 @@
-#  Copyright (C) 2020 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+#  Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
 #
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
@@ -51,14 +51,14 @@ setuptools.setup(
             'pylint',
             'pylint-quotes',
             'pycodestyle',
-            'reforis @ git+https://gitlab.labs.nic.cz/turris/reforis/reforis#egg=reforis',
+            'reforis @ git+https://gitlab.nic.cz/turris/reforis/reforis#egg=reforis',
         ],
     },
     setup_requires=[
         'reforis_distutils',
     ],
     dependency_links=[
-        'git+https://gitlab.labs.nic.cz/turris/reforis/reforis-distutils.git#egg=reforis-distutils',
+        'git+https://gitlab.nic.cz/turris/reforis/reforis-distutils.git#egg=reforis-distutils',
     ],
     entry_points={
         'foris.plugins': f'{NAME} = {NAME}:remote_wifi_settings'
