@@ -70,8 +70,8 @@ def post_reset(controller_id):
 def perform_wifi_action(action, controller_id, data=None):
     try:
         return current_app.backend.perform('wifi', action, data, controller_id=controller_id)
-    except ControllerMissing:
+    except ControllerMissing as e:
         raise APIError(
             _('Device \'{}\' is not available or does not have any Wi-Fi interfaces.'.format(controller_id)),
             HTTPStatus.INTERNAL_SERVER_ERROR,
-        )
+        ) from e
