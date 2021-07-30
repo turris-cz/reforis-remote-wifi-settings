@@ -5,6 +5,9 @@ exports[`<RemoteWiFiSettings /> should display spinner 1`] = `
   <h1>
     Wi-Fi Settings
   </h1>
+  <p>
+    Here you can set up Wi-Fi on remote devices.
+  </p>
   <div
     class="spinner-wrapper my-3 text-center"
   >
