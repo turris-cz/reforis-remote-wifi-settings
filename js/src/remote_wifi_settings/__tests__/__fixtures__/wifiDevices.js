@@ -78,11 +78,7 @@ export const wifiDevices = {
                             radar: false,
                         },
                     ],
-                    available_htmodes: [
-                        "NOHT",
-                        "HT20",
-                        "HT40",
-                    ],
+                    available_htmodes: ["NOHT", "HT20", "HT40"],
                     hwmode: "11g",
                 },
                 {
@@ -278,11 +274,7 @@ export const wifiDevices = {
                             radar: false,
                         },
                     ],
-                    available_htmodes: [
-                        "NOHT",
-                        "HT20",
-                        "HT40",
-                    ],
+                    available_htmodes: ["NOHT", "HT20", "HT40"],
                     hwmode: "11g",
                 },
             ],

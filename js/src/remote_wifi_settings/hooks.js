@@ -40,12 +40,17 @@ export default function useRemoteDevices(setSelectedDevice) {
                         ...devices,
                         [device.controller_id]: deviceName,
                     };
-                }, {}),
+                }, {})
             );
         } else if (getDevicesResponse.state === API_STATE.ERROR) {
             setIsLoading(false);
         }
-    }, [getDevicesResponse, setIsLoading, setAvailableDevices, setSelectedDevice]);
+    }, [
+        getDevicesResponse,
+        setIsLoading,
+        setAvailableDevices,
+        setSelectedDevice,
+    ]);
 
     const hasError = getDevicesResponse.state === API_STATE.ERROR;
 

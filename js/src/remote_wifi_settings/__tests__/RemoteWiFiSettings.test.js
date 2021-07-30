@@ -8,7 +8,12 @@
 import React from "react";
 import mockAxios from "jest-mock-axios";
 import {
-    render, getByText, getAllByText, getByDisplayValue, wait, fireEvent,
+    render,
+    getByText,
+    getAllByText,
+    getByDisplayValue,
+    wait,
+    fireEvent,
 } from "foris/testUtils/customTestRender";
 import { mockJSONError } from "foris/testUtils/network";
 import { WebSockets } from "foris";
@@ -21,7 +26,7 @@ function buildURL(endpoint, ID = "") {
 }
 
 function getDeviceName(device) {
-    return `${device.custom_name} (ID: ${device.controller_id})`
+    return `${device.custom_name} (ID: ${device.controller_id})`;
 }
 
 describe("<RemoteWiFiSettings />", () => {
@@ -41,11 +46,14 @@ describe("<RemoteWiFiSettings />", () => {
     });
 
     it("should handle API error", async () => {
-        expect(mockAxios.get).toBeCalledWith(buildURL("devices"), expect.anything());
+        expect(mockAxios.get).toBeCalledWith(
+            buildURL("devices"),
+            expect.anything()
+        );
         mockJSONError();
         await wait(() => {
             expect(
-                getByText(container, "An error occurred while fetching data."),
+                getByText(container, "An error occurred while fetching data.")
             ).toBeDefined();
         });
     });
@@ -54,7 +62,10 @@ describe("<RemoteWiFiSettings />", () => {
         mockAxios.mockResponse({ data: [] });
         await wait(() => {
             expect(
-                getByText(container, "There are no devices for which you can manage Wi-Fi settings."),
+                getByText(
+                    container,
+                    "There are no devices for which you can manage Wi-Fi settings."
+                )
             ).toBeDefined();
         });
     });
@@ -68,11 +79,15 @@ describe("<RemoteWiFiSettings />", () => {
             mockAxios.mockResponse({ data: devices });
 
             // Handle device details
-            await wait(() => { getByText(container, getDeviceName(devices[0])); });
+            await wait(() => {
+                getByText(container, getDeviceName(devices[0]));
+            });
             mockAxios.mockResponse({ data: wifiDevices });
 
             // Wait for form to appear
-            await wait(() => { getByText(container, "Wi-Fi 1"); });
+            await wait(() => {
+                getByText(container, "Wi-Fi 1");
+            });
 
             saveButton = getByText(container, "Save");
             // First element found is a header
@@ -82,53 +97,79 @@ describe("<RemoteWiFiSettings />", () => {
         it("should save default device", async () => {
             // See if default device is loaded
             expect(mockAxios.get).toBeCalledWith(
-                buildURL("settings", devices[0].controller_id), expect.anything(),
+                buildURL("settings", devices[0].controller_id),
+                expect.anything()
             );
 
             fireEvent.click(saveButton);
             expect(mockAxios.post).toBeCalledWith(
-                buildURL("settings", devices[0].controller_id), expect.anything(), expect.anything(),
+                buildURL("settings", devices[0].controller_id),
+                expect.anything(),
+                expect.anything()
             );
         });
 
         it("should save selected device", async () => {
             // Select second device
-            const dropdown = getByDisplayValue(container, getDeviceName(devices[0]));
-            fireEvent.change(dropdown, { target: { value: devices[1].controller_id } });
+            const dropdown = getByDisplayValue(
+                container,
+                getDeviceName(devices[0])
+            );
+            fireEvent.change(dropdown, {
+                target: { value: devices[1].controller_id },
+            });
             expect(mockAxios.get).toBeCalledWith(
-                buildURL("settings", devices[1].controller_id), expect.anything(),
+                buildURL("settings", devices[1].controller_id),
+                expect.anything()
             );
 
             // Form is reloading
-            await wait(() => { getByText(container, "Load settings"); });
+            await wait(() => {
+                getByText(container, "Load settings");
+            });
             mockAxios.mockResponse({ data: wifiDevices });
-            await wait(() => { getByText(container, "Save"); });
+            await wait(() => {
+                getByText(container, "Save");
+            });
 
             // Save second device
             fireEvent.click(saveButton);
             expect(mockAxios.post).toBeCalledWith(
-                buildURL("settings", devices[1].controller_id), expect.anything(), expect.anything(),
+                buildURL("settings", devices[1].controller_id),
+                expect.anything(),
+                expect.anything()
             );
         });
 
         it("should reset default device", async () => {
             fireEvent.click(resetButton);
             expect(mockAxios.post).toBeCalledWith(
-                buildURL("reset", devices[0].controller_id), undefined, expect.anything(),
+                buildURL("reset", devices[0].controller_id),
+                undefined,
+                expect.anything()
             );
         });
 
         it("should reset second device", async () => {
             // Change device
-            const dropdown = getByDisplayValue(container, getDeviceName(devices[0]));
-            fireEvent.change(dropdown, { target: { value: devices[1].controller_id } });
+            const dropdown = getByDisplayValue(
+                container,
+                getDeviceName(devices[0])
+            );
+            fireEvent.change(dropdown, {
+                target: { value: devices[1].controller_id },
+            });
             mockAxios.mockResponse({ data: wifiDevices });
-            await wait(() => { getByText(container, "Save"); });
+            await wait(() => {
+                getByText(container, "Save");
+            });
 
             // Reset second device
             fireEvent.click(resetButton);
             expect(mockAxios.post).toBeCalledWith(
-                buildURL("reset", devices[1].controller_id), undefined, expect.anything(),
+                buildURL("reset", devices[1].controller_id),
+                undefined,
+                expect.anything()
             );
         });
     });

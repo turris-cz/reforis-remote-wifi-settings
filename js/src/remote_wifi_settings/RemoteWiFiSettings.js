@@ -8,9 +8,7 @@
 import React, { useState, useCallback } from "react";
 import PropTypes from "prop-types";
 
-import {
-    WiFiSettings, Select, Spinner, ErrorMessage,
-} from "foris";
+import { WiFiSettings, Select, Spinner, ErrorMessage } from "foris";
 
 import API_URLs from "API";
 import useRemoteDevices from "./hooks";
@@ -21,11 +19,16 @@ RemoteWiFiSettings.propTypes = {
 
 export default function RemoteWiFiSettings({ ws }) {
     const [selectedDevice, setSelectedDevice] = useState();
-    const handleChange = useCallback((event) => {
-        setSelectedDevice(event.target.value);
-    }, [setSelectedDevice]);
+    const handleChange = useCallback(
+        (event) => {
+            setSelectedDevice(event.target.value);
+        },
+        [setSelectedDevice]
+    );
 
-    const [isLoading, hasError, availableDevices] = useRemoteDevices(setSelectedDevice);
+    const [isLoading, hasError, availableDevices] = useRemoteDevices(
+        setSelectedDevice
+    );
 
     let componentContent;
     if (isLoading) {
@@ -35,7 +38,9 @@ export default function RemoteWiFiSettings({ ws }) {
     } else if (availableDevices.length === 0) {
         componentContent = (
             <p className="text-muted text-center">
-                {_("There are no devices for which you can manage Wi-Fi settings.")}
+                {_(
+                    "There are no devices for which you can manage Wi-Fi settings."
+                )}
             </p>
         );
     } else {
@@ -45,7 +50,9 @@ export default function RemoteWiFiSettings({ ws }) {
                     label={_("Device")}
                     choices={availableDevices}
                     value={selectedDevice}
-                    helpText={_("Select device for which you want to edit Wi-Fi settings.")}
+                    helpText={_(
+                        "Select device for which you want to edit Wi-Fi settings."
+                    )}
                     onChange={(event) => handleChange(event)}
                 />
                 <WiFiSettings
