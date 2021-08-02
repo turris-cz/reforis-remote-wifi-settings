@@ -6,7 +6,7 @@
         "url": "https://gitlab.nic.cz/turris/reforis/reforis-remote-wifi-settings.git"
     },
     "license": "GPL-3.0",
-    "version": "0.2.1",
+    "version": "1.0.0",
     "description": "reForis Remote Wi-Fi Settings Plugin",
     "main": "./src/app.js",
     "dependencies": {
