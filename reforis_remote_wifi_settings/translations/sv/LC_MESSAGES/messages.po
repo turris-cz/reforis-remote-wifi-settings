@@ -8,19 +8,21 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-02-03 14:22+0100\n"
-"PO-Revision-Date: 2020-03-02 15:34+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2021-10-28 05:42+0000\n"
+"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/turris/"
+"reforis-remote-wifi-settings-plugin/sv/>\n"
 "Language: sv\n"
-"Language-Team: sv <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9-dev\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: js/src/app.js:11 js/src/remote_wifi_settings/RemoteWiFiSettings.js:62
 msgid "Wi-Fi Settings"
-msgstr ""
+msgstr "Wi-Fi-inställningar"
 
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:38
 msgid "There are no devices for which you can manage Wi-Fi settings."
@@ -45,4 +47,3 @@ msgstr ""
 #: reforis_remote_wifi_settings/__init__.py:75
 msgid "Device '{}' is not available or does not have any Wi-Fi interfaces."
 msgstr ""
-
