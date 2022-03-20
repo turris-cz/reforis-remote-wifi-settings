@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-02-03 14:22+0100\n"
-"PO-Revision-Date: 2021-09-23 06:36+0000\n"
+"PO-Revision-Date: 2022-03-21 17:56+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/turris/"
 "reforis-remote-wifi-settings-plugin/sk/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: js/src/app.js:11 js/src/remote_wifi_settings/RemoteWiFiSettings.js:62
@@ -27,8 +27,8 @@ msgstr "Nastavenia Wi-Fi"
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:38
 msgid "There are no devices for which you can manage Wi-Fi settings."
 msgstr ""
-"Nie sú dostupné žiadne zariadenia, u ktorých je možné spravovať nastavenia "
-"Wi-Fi."
+"Nie sú dostupné žiadne zariadenia, u ktorých by bolo možné spravovať "
+"nastavenia Wi-Fi."
 
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:45
 msgid "Device"
