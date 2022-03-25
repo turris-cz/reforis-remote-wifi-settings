@@ -1,4 +1,4 @@
-#  Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+#  Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
 #
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
@@ -36,7 +36,8 @@ setuptools.setup(
     packages=setuptools.find_packages(exclude=['tests']),
     include_package_data=True,
 
-    description='',
+    description='reForis Remote Wi-Fi Settings plugin allows managing Wi-Fi remotely from another Turris router.',
+    url='https://gitlab.nic.cz/turris/reforis/reforis-remote-wifi-settings',
     author='CZ.NIC, z.s.p.o.',
     author_email='bogdan.bodnar@nic.cz',
 
