@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-02-03 14:22+0100\n"
-"PO-Revision-Date: 2021-10-28 05:42+0000\n"
+"PO-Revision-Date: 2022-10-19 16:07+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/turris/"
 "reforis-remote-wifi-settings-plugin/sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.14.2-dev\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: js/src/app.js:11 js/src/remote_wifi_settings/RemoteWiFiSettings.js:62
@@ -30,7 +30,7 @@ msgstr ""
 
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:45
 msgid "Device"
-msgstr ""
+msgstr "Enhet"
 
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:48
 msgid "Select device for which you want to edit Wi-Fi settings."
