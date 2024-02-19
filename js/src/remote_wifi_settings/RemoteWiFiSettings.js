@@ -6,7 +6,6 @@
  */
 
 import React, { useState, useCallback } from "react";
-import PropTypes from "prop-types";
 
 import {
     WiFiSettings,
@@ -15,8 +14,10 @@ import {
     ErrorMessage,
     formFieldsSize,
 } from "foris";
+import PropTypes from "prop-types";
 
 import API_URLs from "API";
+
 import useRemoteDevices from "./hooks";
 
 RemoteWiFiSettings.propTypes = {
