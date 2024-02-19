@@ -9,6 +9,9 @@
     "version": "1.0.0",
     "description": "reForis Remote Wi-Fi Settings Plugin",
     "main": "./src/app.js",
+    "eslintConfig": {
+        "extends": "eslint-config-reforis"
+    },
     "dependencies": {
         "foris": "^5.1.14",
         "minimist": "^1.2.5"
