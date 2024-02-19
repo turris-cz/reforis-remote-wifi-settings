@@ -109,4 +109,6 @@ venv.bak/
 ## mypy
 .mypy_cache/
 
-reforis_static/reforis_remote_wifi_settings/js/app.min.js
+reforis_static/reforis_remote_wifi_settings/js/*.min.js
+reforis_static/reforis_remote_wifi_settings/js/*.LICENSE
+reforis_static/reforis_remote_wifi_settings/js/*.txt
