@@ -52,6 +52,7 @@ setuptools.setup(
             'pylint',
             'pycodestyle',
             'reforis @ git+https://gitlab.nic.cz/turris/reforis/reforis#egg=reforis',
+            'werkzeug == 2.0.3',  # TODO remove pin when werkzeug is fixed see https://gitlab.nic.cz/turris/reforis/reforis/-/merge_requests/316#note_249166
         ],
     },
     setup_requires=[
