@@ -6,7 +6,6 @@
  */
 
 import React, { useState, useCallback } from "react";
-import PropTypes from "prop-types";
 
 import {
     WiFiSettings,
@@ -15,8 +14,10 @@ import {
     ErrorMessage,
     formFieldsSize,
 } from "foris";
+import PropTypes from "prop-types";
 
 import API_URLs from "API";
+
 import useRemoteDevices from "./hooks";
 
 RemoteWiFiSettings.propTypes = {
@@ -45,8 +46,9 @@ export default function RemoteWiFiSettings({ ws }) {
             <div className={formFieldsSize}>
                 <h2>{_("Available Devices")}</h2>
                 <p className="text-muted text-center">
-                    {_(`There are no devices for which you can manage Wi-Fi \
-settings.`)}
+                    {_(
+                        "There are no devices for which you can manage Wi-Fi settings."
+                    )}
                 </p>
             </div>
         );
@@ -59,8 +61,9 @@ settings.`)}
                         label={_("Device")}
                         choices={availableDevices}
                         value={selectedDevice}
-                        helpText={_(`Select device for which you want to edit Wi-Fi \
-settings.`)}
+                        helpText={_(
+                            "Select device for which you want to edit Wi-Fi settings."
+                        )}
                         onChange={(event) => handleChange(event)}
                     />
                 </div>
