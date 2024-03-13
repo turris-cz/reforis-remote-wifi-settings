@@ -42,7 +42,7 @@ def test_post_settings_error(client):
 
 @mock_backend_response({"wifi": {"reset": {"update_settings": False}}})
 def test_post_settings_invalid_json(client):
-    response = client.post("/remote-wifi-settings/api/settings/1234")
+    response = client.post("/remote-wifi-settings/api/settings/1234", json=False)
     assert response.status_code == HTTPStatus.BAD_REQUEST
     assert response.json == "Invalid JSON"
 
