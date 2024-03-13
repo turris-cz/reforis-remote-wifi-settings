@@ -1,49 +1,58 @@
-# Romanian translations for PROJECT.
-# Copyright (C) 2020 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# Romanian translations for reForis Remote Wi-Fi Settings.
+# Copyright (C) 2024 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# This file is distributed under the same license as the reForis Remote
+# Wi-Fi Settings project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-02-03 14:22+0100\n"
+"POT-Creation-Date: 2024-03-13 17:02+0100\n"
 "PO-Revision-Date: 2020-03-02 15:34+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ro\n"
 "Language-Team: ro <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100"
-" < 20)) ? 1 : 2)\n"
+" < 20)) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.14.0\n"
 
-#: js/src/app.js:11 js/src/remote_wifi_settings/RemoteWiFiSettings.js:62
+#: js/src/app.js:11 js/src/remote_wifi_settings/RemoteWiFiSettings.js:81
 msgid "Wi-Fi Settings"
 msgstr ""
 
-#: js/src/remote_wifi_settings/RemoteWiFiSettings.js:38
+#: js/src/remote_wifi_settings/RemoteWiFiSettings.js:47
+#: js/src/remote_wifi_settings/RemoteWiFiSettings.js:59
+msgid "Available Devices"
+msgstr ""
+
+#: js/src/remote_wifi_settings/RemoteWiFiSettings.js:49
 msgid "There are no devices for which you can manage Wi-Fi settings."
 msgstr ""
 
-#: js/src/remote_wifi_settings/RemoteWiFiSettings.js:45
+#: js/src/remote_wifi_settings/RemoteWiFiSettings.js:61
 msgid "Device"
 msgstr ""
 
-#: js/src/remote_wifi_settings/RemoteWiFiSettings.js:48
+#: js/src/remote_wifi_settings/RemoteWiFiSettings.js:64
 msgid "Select device for which you want to edit Wi-Fi settings."
 msgstr ""
 
-#: reforis_remote_wifi_settings/__init__.py:56
+#: js/src/remote_wifi_settings/RemoteWiFiSettings.js:82
+msgid "Here you can set up Wi-Fi on remote devices."
+msgstr ""
+
+#: reforis_remote_wifi_settings/__init__.py:59
 msgid "Cannot update Wi-Fi settings."
 msgstr ""
 
-#: reforis_remote_wifi_settings/__init__.py:65
+#: reforis_remote_wifi_settings/__init__.py:69
 msgid "Cannot reset Wi-Fi settings."
 msgstr ""
 
-#: reforis_remote_wifi_settings/__init__.py:75
-msgid "Device '{}' is not available or does not have any Wi-Fi interfaces."
-msgstr ""
+#~ msgid "Device '{}' is not available or does not have any Wi-Fi interfaces."
+#~ msgstr ""
 
