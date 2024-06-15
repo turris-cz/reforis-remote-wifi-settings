@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-03-13 17:02+0100\n"
-"PO-Revision-Date: 2020-03-30 01:09+0000\n"
+"PO-Revision-Date: 2024-06-16 18:09+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
-"Language: nb\n"
-"Language-Team: Norwegian Bokmål "
-"<https://hosted.weblate.org/projects/turris/reforis-remote-wifi-settings-"
-"plugin/nb_NO/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
+"reforis-remote-wifi-settings-plugin/nb_NO/>\n"
+"Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.6-dev\n"
 "Generated-By: Babel 2.14.0\n"
 
 #: js/src/app.js:11 js/src/remote_wifi_settings/RemoteWiFiSettings.js:81
@@ -28,7 +28,7 @@ msgstr "Wi-Fi-innstillinger"
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:47
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:59
 msgid "Available Devices"
-msgstr ""
+msgstr "Tilgjengelige enheter"
 
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:49
 msgid "There are no devices for which you can manage Wi-Fi settings."
@@ -44,7 +44,7 @@ msgstr "Velg enhet å redigere Wi-Fi-innstillinger for."
 
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:82
 msgid "Here you can set up Wi-Fi on remote devices."
-msgstr ""
+msgstr "Her kan du sette opp Wi-Fi på enheter annensteds hen."
 
 #: reforis_remote_wifi_settings/__init__.py:59
 msgid "Cannot update Wi-Fi settings."
@@ -56,4 +56,3 @@ msgstr "Kan ikke tilbakestille Wi-Fi-innstillinger."
 
 #~ msgid "Device '{}' is not available or does not have any Wi-Fi interfaces."
 #~ msgstr "Enheten '{}' er utilgjengelig, eller mangler Wi-Fi-grensesnitt."
-
