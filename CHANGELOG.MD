@@ -8,6 +8,15 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [2.1.0] - 2024-07-04
+
+### Changed
+
+-   Updated Foris JS library to v6.0.2
+-   Updated dependencies in package.json
+-   Updated .gitignore to exclude Ruff cache files
+-   NPM audit fix
+
 ## [2.0.0] - 2024-03-13
 
 ### Added
@@ -61,7 +70,8 @@ and this project adheres to
 
 ## [0.1.0] - 2020-03-02
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-remote-wifi-settings/-/compare/v2.0.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-remote-wifi-settings/-/compare/v2.1.0...master
+[2.1.0]: https://gitlab.nic.cz/turris/reforis/reforis-remote-wifi-settings/-/compare/v2.0.0...v2.1.0
 [2.0.0]: https://gitlab.nic.cz/turris/reforis/reforis-remote-wifi-settings/-/compare/v1.0.0...v2.0.0
 [1.0.0]: https://gitlab.nic.cz/turris/reforis/reforis-remote-wifi-settings/-/compare/v0.2.1...v1.0.0
 [0.2.1]: https://gitlab.nic.cz/turris/reforis/reforis-remote-wifi-settings/-/compare/v0.2.0...v0.2.1
