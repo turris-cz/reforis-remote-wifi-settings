@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-03-13 17:02+0100\n"
-"PO-Revision-Date: 2025-04-08 00:40+0000\n"
+"PO-Revision-Date: 2025-04-11 04:12+0000\n"
 "Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/turris/"
 "reforis-remote-wifi-settings-plugin/ru/>\n"
@@ -45,7 +45,7 @@ msgstr "Выберите устройство, для которого вы хо
 
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:82
 msgid "Here you can set up Wi-Fi on remote devices."
-msgstr ""
+msgstr "Здесь вы можете настроить Wi-Fi на удаленных устройствах."
 
 #: reforis_remote_wifi_settings/__init__.py:59
 msgid "Cannot update Wi-Fi settings."
