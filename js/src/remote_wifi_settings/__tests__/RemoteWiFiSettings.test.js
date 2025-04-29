@@ -125,7 +125,7 @@ describe("<RemoteWiFiSettings />", () => {
 
             // Form is reloading
             await wait(() => {
-                getByText(container, "Load settings");
+                getByText(container, "Loading");
             });
             mockAxios.mockResponse({ data: wifiDevices });
             await wait(() => {
