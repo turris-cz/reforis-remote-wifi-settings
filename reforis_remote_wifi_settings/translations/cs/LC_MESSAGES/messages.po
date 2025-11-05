@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-04-29 15:31+0200\n"
-"PO-Revision-Date: 2024-11-15 13:00+0000\n"
+"POT-Creation-Date: 2025-11-05 18:47+0300\n"
+"PO-Revision-Date: 2025-05-14 20:01+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language: cs\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis-"
@@ -27,7 +27,7 @@ msgstr "Nastavení Wi-Fi"
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:47
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:59
 msgid "Available Devices"
-msgstr "Dostupná zařízení"
+msgstr "Zařízení k dispozici"
 
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:49
 msgid "There are no devices for which you can manage Wi-Fi settings."
@@ -49,11 +49,11 @@ msgstr "Zde můžete nastavit Wi-Fi na vzdálených zařízeních."
 
 #: reforis_remote_wifi_settings/__init__.py:57
 msgid "Cannot update Wi-Fi settings."
-msgstr "Není možné aktualizovat nastavení Wi-Fi."
+msgstr "Nebylo možné aktualizovat nastavení Wi-Fi."
 
 #: reforis_remote_wifi_settings/__init__.py:67
 msgid "Cannot reset Wi-Fi settings."
-msgstr "Není možné resetovat nastavení Wi-Fi."
+msgstr "Nebylo možné resetovat nastavení Wi-Fi."
 
 #~ msgid "Device '{}' is not available or does not have any Wi-Fi interfaces."
 #~ msgstr "Zařízení '{}' není k dispozici nebo nemá žádná rozhraní Wi-Fi."
