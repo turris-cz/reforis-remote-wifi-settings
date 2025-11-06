@@ -8,6 +8,16 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [2.3.0] - 2025-11-06
+
+### Added
+
+- Added & updated Weblate translations
+
+### Changed
+
+- Updated several dependencies in package.json
+
 ## [2.2.0] - 2025-04-29
 
 ### Added
@@ -82,7 +92,8 @@ and this project adheres to
 
 ## [0.1.0] - 2020-03-02
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-remote-wifi-settings/-/compare/v2.2.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-remote-wifi-settings/-/compare/v2.3.0...master
+[2.3.0]: https://gitlab.nic.cz/turris/reforis/reforis-remote-wifi-settings/-/compare/v2.2.0...v2.3.0
 [2.2.0]: https://gitlab.nic.cz/turris/reforis/reforis-remote-wifi-settings/-/compare/v2.1.0...v2.2.0
 [2.1.0]: https://gitlab.nic.cz/turris/reforis/reforis-remote-wifi-settings/-/compare/v2.0.0...v2.1.0
 [2.0.0]: https://gitlab.nic.cz/turris/reforis/reforis-remote-wifi-settings/-/compare/v1.0.0...v2.0.0
