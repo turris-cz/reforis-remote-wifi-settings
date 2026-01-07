@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-11-05 18:47+0300\n"
-"PO-Revision-Date: 2022-10-19 16:07+0000\n"
-"Last-Translator: Kristoffer Grundström "
-"<swedishsailfishosuser@tutanota.com>\n"
+"PO-Revision-Date: 2026-01-08 20:01+0000\n"
+"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/turris/reforis-"
+"remote-wifi-settings-plugin/sv/>\n"
 "Language: sv\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/turris"
-"/reforis-remote-wifi-settings-plugin/sv/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15.1\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/app.js:11 js/src/remote_wifi_settings/RemoteWiFiSettings.js:81
@@ -28,7 +28,7 @@ msgstr "Wi-Fi-inställningar"
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:47
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:59
 msgid "Available Devices"
-msgstr ""
+msgstr "Tillgängliga enheter"
 
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:49
 msgid "There are no devices for which you can manage Wi-Fi settings."
@@ -56,4 +56,3 @@ msgstr ""
 
 #~ msgid "Device '{}' is not available or does not have any Wi-Fi interfaces."
 #~ msgstr ""
-
