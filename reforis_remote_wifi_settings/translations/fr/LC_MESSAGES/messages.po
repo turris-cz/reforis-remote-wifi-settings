@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-11-05 18:47+0300\n"
-"PO-Revision-Date: 2020-03-13 18:33+0000\n"
-"Last-Translator: Florian <floflr@zaclys.net>\n"
+"PO-Revision-Date: 2026-03-22 18:09+0000\n"
+"Last-Translator: XVI <social-xvi@protonmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/turris/reforis-"
+"remote-wifi-settings-plugin/fr/>\n"
 "Language: fr\n"
-"Language-Team: French <https://hosted.weblate.org/projects/turris"
-"/reforis-remote-wifi-settings-plugin/fr/>\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.17-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/app.js:11 js/src/remote_wifi_settings/RemoteWiFiSettings.js:81
@@ -27,7 +28,7 @@ msgstr "Paramètres Wi-Fi"
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:47
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:59
 msgid "Available Devices"
-msgstr ""
+msgstr "Appareils disponibles"
 
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:49
 msgid "There are no devices for which you can manage Wi-Fi settings."
@@ -62,4 +63,3 @@ msgstr "Impossible de réinitialiser les paramètres Wi-Fi."
 #~ "L'appareil \"{}\" n'est pas disponible "
 #~ "ou ne possède pas d'interface Wi-"
 #~ "Fi."
-
