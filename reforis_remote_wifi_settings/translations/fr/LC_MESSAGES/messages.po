@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-11-05 18:47+0300\n"
-"PO-Revision-Date: 2026-03-22 18:09+0000\n"
-"Last-Translator: XVI <social-xvi@protonmail.com>\n"
+"PO-Revision-Date: 2026-09-04 13:56+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/turris/reforis-"
 "remote-wifi-settings-plugin/fr/>\n"
 "Language: fr\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 2026.9\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/app.js:11 js/src/remote_wifi_settings/RemoteWiFiSettings.js:81
@@ -33,8 +33,8 @@ msgstr "Appareils disponibles"
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:49
 msgid "There are no devices for which you can manage Wi-Fi settings."
 msgstr ""
-"Il n’existe aucun appareil pour lequel vous pouvez gérer les paramètres "
-"Wi-Fi."
+"Il n’existe aucun appareil pour lequel vous pouvez gérer les paramètres Wi-"
+"Fi."
 
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:61
 msgid "Device"
@@ -43,8 +43,8 @@ msgstr "Appareil"
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:64
 msgid "Select device for which you want to edit Wi-Fi settings."
 msgstr ""
-"Sélectionnez l'appareil pour lequel vous souhaitez modifier les "
-"paramètres Wi-Fi."
+"Sélectionnez l'appareil pour lequel vous souhaitez modifier les paramètres "
+"Wi-Fi."
 
 #: js/src/remote_wifi_settings/RemoteWiFiSettings.js:82
 msgid "Here you can set up Wi-Fi on remote devices."
