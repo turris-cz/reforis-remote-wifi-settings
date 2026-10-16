@@ -5,14 +5,13 @@
 
 """Remote Wi-Fi settings module for ReForis."""
 
-from pathlib import Path
 from http import HTTPStatus
+from pathlib import Path
 
 from flask import Blueprint, current_app, jsonify, request
 from flask_babel import gettext as _
-
-from reforis.foris_controller_api.utils import validate_json, APIError
 from foris_client.buses.base import ControllerMissing
+from reforis.foris_controller_api.utils import APIError, validate_json
 
 blueprint = Blueprint(
     "RemoteWiFiSettings",
@@ -75,6 +74,6 @@ def perform_wifi_action(action, controller_id, data=None):
         return current_app.backend.perform("wifi", action, data, controller_id=controller_id)
     except ControllerMissing as e:
         raise APIError(
-            _(f"Device '{controller_id}' is not available or does not have any Wi-Fi interfaces."),
+            _("Device '{}' is not available or does not have any Wi-Fi interfaces.").format(controller_id),
             HTTPStatus.INTERNAL_SERVER_ERROR,
         ) from e
